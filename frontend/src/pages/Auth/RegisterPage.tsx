@@ -59,7 +59,7 @@ export function RegisterPage() {
         </div>
         <CardTitle className="text-2xl font-bold tracking-tight">Create an account</CardTitle>
         <CardDescription className="text-muted-foreground">
-          Request access to the IntelliCloud platform.
+          Request access to the Self_Healing_Cloud platform.
         </CardDescription>
       </CardHeader>
       <CardContent>

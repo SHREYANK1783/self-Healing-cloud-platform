@@ -51,8 +51,8 @@ export function ForgotPasswordPage() {
           {isSent ? "Check your email" : "Forgot Password"}
         </CardTitle>
         <CardDescription className="text-muted-foreground">
-          {isSent 
-            ? "We have sent a password reset link to your email." 
+          {isSent
+            ? "We have sent a password reset link to your email."
             : "Enter your email address and we will send you a reset link."}
         </CardDescription>
       </CardHeader>
@@ -76,7 +76,7 @@ export function ForgotPasswordPage() {
                   <FormItem>
                     <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="admin@intellicloud.com" {...field} className="bg-secondary/50" />
+                      <Input placeholder="admin@Self_Healing_Cloud.com" {...field} className="bg-secondary/50" />
                     </FormControl>
                     <FormMessage />
                   </FormItem>

@@ -37,7 +37,7 @@ export function SettingsPage() {
               </div>
               <div className="space-y-1">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" defaultValue="admin@intellicloud.com" />
+                <Input id="email" defaultValue="admin@Self_Healing_Cloud.com" />
               </div>
             </CardContent>
             <CardFooter>

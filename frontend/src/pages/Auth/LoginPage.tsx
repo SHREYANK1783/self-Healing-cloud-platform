@@ -53,7 +53,7 @@ export function LoginPage() {
         </div>
         <CardTitle className="text-2xl font-bold tracking-tight">Welcome back</CardTitle>
         <CardDescription className="text-muted-foreground">
-          Enter your credentials to access the IntelliCloud platform.
+          Enter your credentials to access the Self_Healing_Cloud platform.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -66,7 +66,7 @@ export function LoginPage() {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input placeholder="admin@intellicloud.com" {...field} className="bg-secondary/50" />
+                    <Input placeholder="admin@Self_Healing_Cloud.com" {...field} className="bg-secondary/50" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

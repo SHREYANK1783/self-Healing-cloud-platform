@@ -26,18 +26,18 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 const initialUsers = [
-  { id: "USR-1", name: "Alice Admin", email: "alice@intellicloud.com", role: "Administrator", status: "Active", lastLogin: "2026-07-29 04:00" },
-  { id: "USR-2", name: "Bob DevOps", email: "bob@intellicloud.com", role: "DevOps", status: "Active", lastLogin: "2026-07-29 02:30" },
-  { id: "USR-3", name: "Charlie Data", email: "charlie@intellicloud.com", role: "Data Scientist", status: "Inactive", lastLogin: "2026-07-25 10:15" },
-  { id: "USR-4", name: "Diana Manager", email: "diana@intellicloud.com", role: "Manager", status: "Active", lastLogin: "2026-07-28 16:45" },
+  { id: "USR-1", name: "Alice Admin", email: "alice@Self_Healing_Cloud.com", role: "Administrator", status: "Active", lastLogin: "2026-07-29 04:00" },
+  { id: "USR-2", name: "Bob DevOps", email: "bob@Self_Healing_Cloud.com", role: "DevOps", status: "Active", lastLogin: "2026-07-29 02:30" },
+  { id: "USR-3", name: "Charlie Data", email: "charlie@Self_Healing_Cloud.com", role: "Data Scientist", status: "Inactive", lastLogin: "2026-07-25 10:15" },
+  { id: "USR-4", name: "Diana Manager", email: "diana@Self_Healing_Cloud.com", role: "Manager", status: "Active", lastLogin: "2026-07-28 16:45" },
 ]
 
 export function UsersPage() {
   const [users, setUsers] = useState(initialUsers)
   const [searchTerm, setSearchTerm] = useState("")
 
-  const filteredUsers = users.filter(u => 
-    u.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+  const filteredUsers = users.filter(u =>
+    u.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     u.email.toLowerCase().includes(searchTerm.toLowerCase())
   )
 
@@ -63,7 +63,7 @@ export function UsersPage() {
             Manage system access, roles, and permissions.
           </p>
         </div>
-        
+
         <Dialog>
           <DialogTrigger asChild>
             <Button className="gap-2">
@@ -112,7 +112,7 @@ export function UsersPage() {
       <Card>
         <CardHeader>
           <CardTitle>System Users</CardTitle>
-          <CardDescription>A list of all users that have access to IntelliCloud.</CardDescription>
+          <CardDescription>A list of all users that have access to Self_Healing_Cloud.</CardDescription>
           <div className="flex items-center gap-4 pt-4">
             <div className="relative flex-1 max-w-sm">
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />

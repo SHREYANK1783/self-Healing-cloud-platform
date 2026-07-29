@@ -40,7 +40,7 @@ export function Sidebar() {
       <div className="flex items-center justify-between p-4 h-16 border-b">
         {!collapsed && (
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-400 truncate transition-opacity duration-300">
-            IntelliCloud
+            Self_Healing_Cloud
           </span>
         )}
         <button

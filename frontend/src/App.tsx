@@ -28,7 +28,7 @@ const queryClient = new QueryClient()
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <ThemeProvider defaultTheme="dark" storageKey="intellicloud-theme">
+      <ThemeProvider defaultTheme="dark" storageKey="Self_Healing_Cloud-theme">
         <BrowserRouter>
           <Routes>
             <Route element={<AuthLayout />}>
