@@ -74,7 +74,7 @@ export function LoginPage() {
                 <BrainCircuit className="h-7 w-7" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Secure sign-in</p>
+                <p className="text-sm font-semibold text-primary"></p>
                 <p className="text-xs text-muted-foreground">AI-assisted cloud monitoring</p>
               </div>
             </div>
