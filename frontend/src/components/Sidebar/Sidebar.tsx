@@ -16,7 +16,7 @@ import {
 import { useState } from "react"
 
 const sidebarItems = [
-  { name: "Dashboard", href: "/", icon: LayoutDashboard },
+  { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { name: "System Monitoring", href: "/monitoring", icon: Activity },
   { name: "Machine Learning", href: "/ml", icon: BrainCircuit },
   { name: "Alerts", href: "/alerts", icon: BellRing },
